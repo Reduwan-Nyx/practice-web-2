@@ -1,0 +1,127 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+h1{
+    font-size: 30px;
+    color: rgb(51, 50, 50);
+
+}
+h3{
+    color: rgb(49, 49, 49);
+}
+.orange-color{
+    color: orange;
+}
+.red-color{
+    color: rgb(255, 72, 0);
+}
+
+.flexiable-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+.half-banner{
+    width: 50%;
+    padding-left: 20px;
+    margin-top: 40px;
+    text-align: justify;
+}
+.half-banner img{
+     width: 60%;
+     padding-left: 100px;
+     margin-left: 100px;
+     margin-top: 50px;
+
+}
+.hal-banner img{
+    width: 60%;
+    padding-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(
+        #e52d27 , #b31217 );
+        padding: 10px 40px;
+        color: white;
+        font-weight: 700;
+}
+.button:hover{
+    transition: all .7s ;
+    color: black;
+}
+
+.top-banner{
+    background-image: url(./top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.text-middle{
+    padding-right: 20px;
+    width: 50%;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.middle-banner{
+    background-image: url(./dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.text-exp{
+    text-align: center;
+    color: rgb(36, 36, 36);
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.bottom-class{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgb(51, 50, 50);
+    
+
+}
+
+.bottom-banner{
+    background-image: url(./exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    color: rgb(49, 49, 49);
+}
+
+#bottom-link{
+    border-left: 7px solid;
+    border-image: linear-gradient(#ec008c , #fc6767);
+    border-image-slice: 1;
+}
+
+#bottom-linke{
+    border-left: 7px solid;
+    border-image: linear-gradient(#0F2027 , #203A43, 
+    #2c5364);
+    border-image-slice: 1;
+
+
+}
+
+#bottom-linkee{
+    border-left: 7px solid;
+    border-image: linear-gradient(#b92b27 , 
+    #1565c0);
+    border-image-slice: 1;
+    
+}
+
+footer{
+    text-align: center;
+}
+
